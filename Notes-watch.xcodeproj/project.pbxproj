@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF10124E2756504900A5BED1 /* Notes-watch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FF10124D2756504900A5BED1 /* Notes-watch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FF1012532756504B00A5BED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1012522756504B00A5BED1 /* Assets.xcassets */; };
+		FF1012592756504B00A5BED1 /* Notes-watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FF1012582756504B00A5BED1 /* Notes-watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FF10125E2756504B00A5BED1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF10125D2756504B00A5BED1 /* ContentView.swift */; };
+		FF1012602756504B00A5BED1 /* Notes_watchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF10125F2756504B00A5BED1 /* Notes_watchApp.swift */; };
+		FF1012622756504B00A5BED1 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1012612756504B00A5BED1 /* ComplicationController.swift */; };
+		FF1012642756504C00A5BED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1012632756504C00A5BED1 /* Assets.xcassets */; };
+		FF1012672756504C00A5BED1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1012662756504C00A5BED1 /* Preview Assets.xcassets */; };
+		FF101279275652F800A5BED1 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF101278275652F800A5BED1 /* Note.swift */; };
+		FF19DE0C2758473B003A0A17 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF19DE0B2758473B003A0A17 /* DetailView.swift */; };
+		FF19DE0E27584A2D003A0A17 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF19DE0D27584A2D003A0A17 /* CreditsView.swift */; };
+		FF19DE1127584A81003A0A17 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF19DE1027584A81003A0A17 /* HeaderView.swift */; };
+		FF19DE1327584D70003A0A17 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF19DE1227584D70003A0A17 /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF10124F2756504900A5BED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF1012432756504900A5BED1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF10124C2756504900A5BED1;
+			remoteInfo = "Notes-watch WatchKit App";
+		};
+		FF10125A2756504B00A5BED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF1012432756504900A5BED1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF1012572756504B00A5BED1;
+			remoteInfo = "Notes-watch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF10126E2756504C00A5BED1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FF1012592756504B00A5BED1 /* Notes-watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1012722756504C00A5BED1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FF10124E2756504900A5BED1 /* Notes-watch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF1012492756504900A5BED1 /* Notes-watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notes-watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF10124D2756504900A5BED1 /* Notes-watch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notes-watch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1012522756504B00A5BED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF1012582756504B00A5BED1 /* Notes-watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Notes-watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF10125D2756504B00A5BED1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF10125F2756504B00A5BED1 /* Notes_watchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes_watchApp.swift; sourceTree = "<group>"; };
+		FF1012612756504B00A5BED1 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		FF1012632756504C00A5BED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF1012662756504C00A5BED1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF1012682756504C00A5BED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF101278275652F800A5BED1 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		FF19DE0B2758473B003A0A17 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FF19DE0D27584A2D003A0A17 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		FF19DE1027584A81003A0A17 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		FF19DE1227584D70003A0A17 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF1012552756504B00A5BED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF1012422756504900A5BED1 = {
+			isa = PBXGroup;
+			children = (
+				FF1012512756504900A5BED1 /* Notes-watch WatchKit App */,
+				FF10125C2756504B00A5BED1 /* Notes-watch WatchKit Extension */,
+				FF10124A2756504900A5BED1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF10124A2756504900A5BED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF1012492756504900A5BED1 /* Notes-watch.app */,
+				FF10124D2756504900A5BED1 /* Notes-watch WatchKit App.app */,
+				FF1012582756504B00A5BED1 /* Notes-watch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF1012512756504900A5BED1 /* Notes-watch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FF1012522756504B00A5BED1 /* Assets.xcassets */,
+			);
+			path = "Notes-watch WatchKit App";
+			sourceTree = "<group>";
+		};
+		FF10125C2756504B00A5BED1 /* Notes-watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FF19DE0F27584A70003A0A17 /* Component */,
+				FF101277275652ED00A5BED1 /* Model */,
+				FF101276275652E700A5BED1 /* View */,
+				FF10125F2756504B00A5BED1 /* Notes_watchApp.swift */,
+				FF1012612756504B00A5BED1 /* ComplicationController.swift */,
+				FF1012632756504C00A5BED1 /* Assets.xcassets */,
+				FF1012682756504C00A5BED1 /* Info.plist */,
+				FF1012652756504C00A5BED1 /* Preview Content */,
+			);
+			path = "Notes-watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FF1012652756504C00A5BED1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF1012662756504C00A5BED1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF101276275652E700A5BED1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF10125D2756504B00A5BED1 /* ContentView.swift */,
+				FF19DE0B2758473B003A0A17 /* DetailView.swift */,
+				FF19DE0D27584A2D003A0A17 /* CreditsView.swift */,
+				FF19DE1227584D70003A0A17 /* SettingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF101277275652ED00A5BED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF101278275652F800A5BED1 /* Note.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF19DE0F27584A70003A0A17 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				FF19DE1027584A81003A0A17 /* HeaderView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF1012482756504900A5BED1 /* Notes-watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1012732756504C00A5BED1 /* Build configuration list for PBXNativeTarget "Notes-watch" */;
+			buildPhases = (
+				FF1012472756504900A5BED1 /* Resources */,
+				FF1012722756504C00A5BED1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF1012502756504900A5BED1 /* PBXTargetDependency */,
+			);
+			name = "Notes-watch";
+			productName = "Notes-watch";
+			productReference = FF1012492756504900A5BED1 /* Notes-watch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		FF10124C2756504900A5BED1 /* Notes-watch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF10126F2756504C00A5BED1 /* Build configuration list for PBXNativeTarget "Notes-watch WatchKit App" */;
+			buildPhases = (
+				FF10124B2756504900A5BED1 /* Resources */,
+				FF10126E2756504C00A5BED1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF10125B2756504B00A5BED1 /* PBXTargetDependency */,
+			);
+			name = "Notes-watch WatchKit App";
+			productName = "Notes-watch WatchKit App";
+			productReference = FF10124D2756504900A5BED1 /* Notes-watch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		FF1012572756504B00A5BED1 /* Notes-watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF10126B2756504C00A5BED1 /* Build configuration list for PBXNativeTarget "Notes-watch WatchKit Extension" */;
+			buildPhases = (
+				FF1012542756504B00A5BED1 /* Sources */,
+				FF1012552756504B00A5BED1 /* Frameworks */,
+				FF1012562756504B00A5BED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Notes-watch WatchKit Extension";
+			productName = "Notes-watch WatchKit Extension";
+			productReference = FF1012582756504B00A5BED1 /* Notes-watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF1012432756504900A5BED1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					FF1012482756504900A5BED1 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					FF10124C2756504900A5BED1 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					FF1012572756504B00A5BED1 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = FF1012462756504900A5BED1 /* Build configuration list for PBXProject "Notes-watch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF1012422756504900A5BED1;
+			productRefGroup = FF10124A2756504900A5BED1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF1012482756504900A5BED1 /* Notes-watch */,
+				FF10124C2756504900A5BED1 /* Notes-watch WatchKit App */,
+				FF1012572756504B00A5BED1 /* Notes-watch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF1012472756504900A5BED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF10124B2756504900A5BED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1012532756504B00A5BED1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1012562756504B00A5BED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1012672756504C00A5BED1 /* Preview Assets.xcassets in Resources */,
+				FF1012642756504C00A5BED1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF1012542756504B00A5BED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF10125E2756504B00A5BED1 /* ContentView.swift in Sources */,
+				FF19DE1327584D70003A0A17 /* SettingsView.swift in Sources */,
+				FF1012602756504B00A5BED1 /* Notes_watchApp.swift in Sources */,
+				FF1012622756504B00A5BED1 /* ComplicationController.swift in Sources */,
+				FF19DE0E27584A2D003A0A17 /* CreditsView.swift in Sources */,
+				FF19DE0C2758473B003A0A17 /* DetailView.swift in Sources */,
+				FF101279275652F800A5BED1 /* Note.swift in Sources */,
+				FF19DE1127584A81003A0A17 /* HeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF1012502756504900A5BED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF10124C2756504900A5BED1 /* Notes-watch WatchKit App */;
+			targetProxy = FF10124F2756504900A5BED1 /* PBXContainerItemProxy */;
+		};
+		FF10125B2756504B00A5BED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF1012572756504B00A5BED1 /* Notes-watch WatchKit Extension */;
+			targetProxy = FF10125A2756504B00A5BED1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF1012692756504C00A5BED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF10126A2756504C00A5BED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF10126C2756504C00A5BED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Notes-watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = UPXJ6R7P95;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Notes-watch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Notes-watch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codablecode.Notes-watch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		FF10126D2756504C00A5BED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Notes-watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = UPXJ6R7P95;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Notes-watch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Notes-watch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codablecode.Notes-watch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		FF1012702756504C00A5BED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UPXJ6R7P95;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Notes_watch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Notes-watch WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codablecode.Notes-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		FF1012712756504C00A5BED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UPXJ6R7P95;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Notes_watch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Notes-watch WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codablecode.Notes-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		FF1012742756504C00A5BED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UPXJ6R7P95;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codablecode.Notes-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FF1012752756504C00A5BED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UPXJ6R7P95;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codablecode.Notes-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF1012462756504900A5BED1 /* Build configuration list for PBXProject "Notes-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1012692756504C00A5BED1 /* Debug */,
+				FF10126A2756504C00A5BED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF10126B2756504C00A5BED1 /* Build configuration list for PBXNativeTarget "Notes-watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF10126C2756504C00A5BED1 /* Debug */,
+				FF10126D2756504C00A5BED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF10126F2756504C00A5BED1 /* Build configuration list for PBXNativeTarget "Notes-watch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1012702756504C00A5BED1 /* Debug */,
+				FF1012712756504C00A5BED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1012732756504C00A5BED1 /* Build configuration list for PBXNativeTarget "Notes-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1012742756504C00A5BED1 /* Debug */,
+				FF1012752756504C00A5BED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF1012432756504900A5BED1 /* Project object */;
+}
